@@ -32,17 +32,19 @@ This project solves that problem using **distributed computing techniques** to e
 
 ## 🏗️ Architecture
 
+```
 Raw CSV Dataset
-↓
+        ↓
 HDFS (Storage Layer)
-↓
+        ↓
 MapReduce (Processing Layer)
-↓
+        ↓
 Processed Output (HDFS)
-↓
+        ↓
 Hive (Analysis Layer)
-↓
+        ↓
 Insights (Top Movies)
+```
 
 ---
 
